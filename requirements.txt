@@ -1,0 +1,14 @@
+ultralytics==8.3.0
+torch
+torchvision
+opencv-python
+numpy
+pillow
+vosk
+pyaudio
+pyserial
+pynmea2
+gpiozero
+requests
+
+

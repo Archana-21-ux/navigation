@@ -1,0 +1,20 @@
+graphhopper:
+  datareader.file: "india-latest.osm.pbf"
+  graph.location: graph-cache
+
+  profiles:
+    - name: foot
+      profile: foot
+      weighting: fastest
+
+  import:
+    osm:
+      ignored_highways: []
+
+server:
+  application_connectors:
+    - type: http
+      port: 8989
+  admin_connectors:
+    - type: http
+      port: 8081
